@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		452DA0901F6A16DD0018106D /* USTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452DA08F1F6A16DD0018106D /* USTextView.swift */; };
+		45E9331D1F69FF5D00F0321F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E9331C1F69FF5D00F0321F /* AppDelegate.swift */; };
+		45E9331F1F69FF5D00F0321F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E9331E1F69FF5D00F0321F /* ViewController.swift */; };
+		45E933211F69FF5D00F0321F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45E933201F69FF5D00F0321F /* Assets.xcassets */; };
+		45E933241F69FF5D00F0321F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45E933221F69FF5D00F0321F /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		452DA08F1F6A16DD0018106D /* USTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = USTextView.swift; sourceTree = "<group>"; };
+		45E933191F69FF5D00F0321F /* Sapphire Label.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sapphire Label.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45E9331C1F69FF5D00F0321F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45E9331E1F69FF5D00F0321F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45E933201F69FF5D00F0321F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45E933231F69FF5D00F0321F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45E933251F69FF5D00F0321F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45E933161F69FF5D00F0321F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45E933101F69FF5D00F0321F = {
+			isa = PBXGroup;
+			children = (
+				45E9331B1F69FF5D00F0321F /* Sapphire-Label */,
+				45E9331A1F69FF5D00F0321F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45E9331A1F69FF5D00F0321F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45E933191F69FF5D00F0321F /* Sapphire Label.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45E9331B1F69FF5D00F0321F /* Sapphire-Label */ = {
+			isa = PBXGroup;
+			children = (
+				45E9331C1F69FF5D00F0321F /* AppDelegate.swift */,
+				45E9331E1F69FF5D00F0321F /* ViewController.swift */,
+				45E933201F69FF5D00F0321F /* Assets.xcassets */,
+				45E933221F69FF5D00F0321F /* Main.storyboard */,
+				45E933251F69FF5D00F0321F /* Info.plist */,
+				452DA08F1F6A16DD0018106D /* USTextView.swift */,
+			);
+			path = "Sapphire-Label";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45E933181F69FF5D00F0321F /* Sapphire Label */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45E933281F69FF5D00F0321F /* Build configuration list for PBXNativeTarget "Sapphire Label" */;
+			buildPhases = (
+				45E933151F69FF5D00F0321F /* Sources */,
+				45E933161F69FF5D00F0321F /* Frameworks */,
+				45E933171F69FF5D00F0321F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sapphire Label";
+			productName = "Sapphire-Label";
+			productReference = 45E933191F69FF5D00F0321F /* Sapphire Label.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45E933111F69FF5D00F0321F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Aurlaw;
+				TargetAttributes = {
+					45E933181F69FF5D00F0321F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = T54JASTD4Z;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 45E933141F69FF5D00F0321F /* Build configuration list for PBXProject "Sapphire-Label" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45E933101F69FF5D00F0321F;
+			productRefGroup = 45E9331A1F69FF5D00F0321F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45E933181F69FF5D00F0321F /* Sapphire Label */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45E933171F69FF5D00F0321F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E933211F69FF5D00F0321F /* Assets.xcassets in Resources */,
+				45E933241F69FF5D00F0321F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45E933151F69FF5D00F0321F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E9331F1F69FF5D00F0321F /* ViewController.swift in Sources */,
+				45E9331D1F69FF5D00F0321F /* AppDelegate.swift in Sources */,
+				452DA0901F6A16DD0018106D /* USTextView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		45E933221F69FF5D00F0321F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45E933231F69FF5D00F0321F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45E933261F69FF5D00F0321F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45E933271F69FF5D00F0321F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		45E933291F69FF5D00F0321F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = T54JASTD4Z;
+				INFOPLIST_FILE = "Sapphire-Label/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aurlaw.Sapphire-Label";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		45E9332A1F69FF5D00F0321F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = T54JASTD4Z;
+				INFOPLIST_FILE = "Sapphire-Label/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aurlaw.Sapphire-Label";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45E933141F69FF5D00F0321F /* Build configuration list for PBXProject "Sapphire-Label" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45E933261F69FF5D00F0321F /* Debug */,
+				45E933271F69FF5D00F0321F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45E933281F69FF5D00F0321F /* Build configuration list for PBXNativeTarget "Sapphire Label" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45E933291F69FF5D00F0321F /* Debug */,
+				45E9332A1F69FF5D00F0321F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45E933111F69FF5D00F0321F /* Project object */;
+}
